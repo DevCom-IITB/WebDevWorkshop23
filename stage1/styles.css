@@ -1,0 +1,45 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+
+.main {
+display: flex;
+flex-direction: row;
+}
+
+.blog-list {
+flex: 1;
+height: 50vh;
+margin-top: 20vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 0;
+border: 2px solid red;
+}
+
+.blog {
+flex: 5;
+padding-top: 20px;
+display: block;
+flex-direction: column;
+min-height: 90vh;
+border-right: solid 2px lightgray;
+border: 2px solid green;
+}
+
+.blog-content {
+flex: 2;
+height: 65vh;
+margin-top: auto;
+justify-content: center;
+align-items: center;
+padding: 40px;
+border: 2px solid blue;
+}
